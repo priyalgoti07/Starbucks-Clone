@@ -7,16 +7,16 @@
 }
 
 .header {
-    background-color: #d8c6c6;
+    /* background-color: #d8c6c6; */
 }
 
 .container {
     max-width: 1256px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 75px;
     margin: auto;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .nav-list {
-    width: 500px;
+    width: 60%;
 }
 
 .nav-list ul {
@@ -55,6 +55,7 @@
     display: flex;
     align-items: center;
     padding: 3px;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
 }
 
 .search-icon {
@@ -65,6 +66,86 @@
 
 .seach-input {
     margin-left: 5px;
-    width: 80%;
+    width: 100%;
     border: none;
+}
+
+.nav-user {
+    margin-left: 50px;
+}
+
+.nav-second {
+    background-color: #1E3932;
+    height: 80px;
+    color: #FFFFFF;
+    box-shadow: 0 2px 4px #00000012, 0 4px 5px #0000000f, 0 1px 10px #0000001a;
+    cursor: pointer;
+}
+
+.second-container {
+    max-width: 1192px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-container h5 {
+    color: #f9f9f9;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.btn {
+    width: 96px;
+    height: 32px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+section {
+    margin-top: 30px;
+    background-color: #edebe9;
+    position: relative;
+}
+
+.right-image {
+    background-image: url("greyleafright.svg");
+    background-size: cover;
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.section-container {
+    margin-top: 25px;
+    padding-top: 25px;
+    max-width: 1140px;
+    height: 315px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-header span {
+    color: #1E3932;
+    font-size: 1.5rem;
+}
+
+.section-header h6 {
+    color: #00754A;
+    font-size: 0.9rem;
 }
