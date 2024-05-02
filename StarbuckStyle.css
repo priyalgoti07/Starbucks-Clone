@@ -149,3 +149,58 @@ section {
     color: #00754A;
     font-size: 0.9rem;
 }
+.main-card{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.card-section {
+    width: 300px;
+    height: 120px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px 44px;
+    margin: 0 15px 15px;
+}
+
+.crad-first {
+    display: flex;
+}
+
+.menu-images {
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+}
+
+.crad-title {
+    margin-left: 15px;
+}
+
+.crad-title h3 {
+    font-size: 0.85rem;
+}
+
+.crad-title h5 {
+    font-size: 0.55rem;
+    color: #6c757d;
+    margin-top: 10px;
+}
+.card-last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+.card-last h4{
+    font-size: 0.9rem;
+}
+.card-last button{
+    width: 96px;
+    height: 32px;
+    background: #00754A;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #a3a3a3ad;
+    color: #fff;
+}
