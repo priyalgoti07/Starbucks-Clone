@@ -119,7 +119,7 @@ section {
 .right-image {
     background-image: url("greyleafright.svg");
     background-size: cover;
-    width: 60px;
+    width: 65px;
     height: 70px;
     position: absolute;
     right: 0;
@@ -129,8 +129,8 @@ section {
 .section-container {
     margin-top: 25px;
     padding-top: 25px;
-    max-width: 1140px;
-    height: 315px;
+    max-width: 1170px;
+    height: 280px;
     /* border: 1px solid black; */
     margin: auto;
 }
@@ -138,6 +138,7 @@ section {
 .section-header {
     display: flex;
     justify-content: space-between;
+    margin-left: 8px;
 }
 
 .section-header span {
@@ -149,19 +150,22 @@ section {
     color: #00754A;
     font-size: 0.9rem;
 }
-.main-card{
+
+.main-card {
     display: flex;
     margin: 10px;
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
+
 .card-section {
-    width: 300px;
-    height: 120px;
+    width: 315px;
+    height: 125px;
     background-color: #FFFFFF;
-    border-radius: 15px;
-    padding: 20px 44px;
-    margin: 0 15px 15px;
+    border-radius: 8px;
+    padding: 16px 24px;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    margin: 0 10px;
 }
 
 .crad-first {
@@ -180,6 +184,7 @@ section {
 
 .crad-title h3 {
     font-size: 0.85rem;
+    color: #000;
 }
 
 .crad-title h5 {
@@ -187,15 +192,18 @@ section {
     color: #6c757d;
     margin-top: 10px;
 }
-.card-last{
+
+.card-last {
     display: flex;
     justify-content: space-between;
     margin-top: 6px;
 }
-.card-last h4{
+
+.card-last h4 {
     font-size: 0.9rem;
 }
-.card-last button{
+
+.card-last button {
     width: 96px;
     height: 32px;
     background: #00754A;
@@ -203,4 +211,49 @@ section {
     border-radius: 30px;
     box-shadow: 0 4px 15px #a3a3a3ad;
     color: #fff;
+}
+
+.promotion-banner {
+    margin-top: 50px;
+}
+
+.banner-container {
+    max-width: 1140px;
+    height: 220px;
+    margin: auto;
+    background-image: url('Banner_Background.jpg');
+    border-radius: 5px;
+    display: flex;
+}
+
+.banner-first {
+    width: 10%;
+}
+
+.banner-img {
+    background-image: url('banner-coffee.png');
+    background-size: cover;
+    width: 100px;
+    height: 200px;
+}
+
+.banner-second {
+    padding: 1.5rem;
+    width: 55%;
+    color: #FFFFFF;
+}
+
+.first {
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+.second {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.third{
+    padding-top: 10px;
+    font-size: 0.85rem;
 }
