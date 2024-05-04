@@ -129,7 +129,7 @@ section {
 .section-container {
     margin-top: 25px;
     padding-top: 25px;
-    max-width: 1170px;
+    max-width: 1230px;
     height: 280px;
     /* border: 1px solid black; */
     margin: auto;
@@ -253,7 +253,28 @@ section {
     font-size: 1.2rem;
     font-weight: 600;
 }
-.third{
+
+.third {
     padding-top: 10px;
     font-size: 0.85rem;
+}
+
+/*  */
+.handpicked-section {
+    margin-top: 50px;
+}
+
+.handpicked-container {
+    max-width: 1140px;
+    height: 260px;
+    border: 1px solid black;
+    margin: auto;
+}
+.handpicked-container h2{
+    color: #1e3932;
+}
+.handpicked-img{
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
 }
