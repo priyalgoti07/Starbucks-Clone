@@ -267,14 +267,63 @@ section {
 .handpicked-container {
     max-width: 1140px;
     height: 260px;
-    border: 1px solid black;
+    /* border: 1px solid #000000; */
     margin: auto;
 }
-.handpicked-container h2{
-    color: #1e3932;
+
+.handpicked-container h2 {
+    color: #1E3932;
+    font-size: 1.5rem;
 }
-.handpicked-img{
+
+.handpicked-img {
     height: 108px;
     width: 108px;
     border-radius: 50%;
+    border: 1px solid #edebe9;
+    cursor: pointer
+}
+
+.handpicked-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.section-card p {
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #292525;
+}
+
+/*  */
+.favourites-section {
+    margin-top: 4px;
+}
+
+.favourites-container {
+    margin: auto;
+    max-width: 1140px;
+    height: 420px;
+    border: 2px solid black;
+}
+.fav-title h2{
+    color: #1E3932;
+}
+.card-container{
+    width: 362px;
+    height: 360px;
+    /* border: 2px solid black; */
+    box-shadow: 0 2px 4px #00000012, 0 4px 5px #0000000f, 0 1px 10px #0000001a;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card-images{
+    height: 167px;
+    width: 362px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
