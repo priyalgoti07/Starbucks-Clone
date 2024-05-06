@@ -394,3 +394,165 @@ section {
     font-size: 12px;
     font-weight: 600;
 }
+
+/* favourites-section-panel */
+.favourites-section-panel {
+    background-color: #edebe9;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.panel-container {
+    max-width: 1320px;
+    height: 435PX;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+
+.panel-first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel-container h2 {
+    color: #1e3932;
+}
+
+.panel-container h6 {
+    color: #00754a;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.panel-second {
+    margin-top: 2rem;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.panel-second-img {
+    display: block;
+    height: 372px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the alpha (4th parameter) for the darkness */
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s ease;
+    /* Add transition for smooth effect */
+    border-radius: 8px;
+
+}
+
+.panel-second:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+    /* Show the overlay on hover */
+}
+
+.panel-text {
+    position: absolute;
+    top: 2rem;
+    color: #fff;
+    left: 2rem;
+}
+
+.first-tage {
+    color: #096;
+    font-size: 9px;
+    font-weight: 700;
+    background: #e6edeb;
+    border-radius: 4px;
+    padding: 2px 4px;
+    gap: 2px;
+    width: 12%;
+}
+
+.second-tage {
+    margin-top: 10rem;
+    font-size: 1.5rem;
+    margin-bottom: .5em !important;
+}
+
+.fav-card-text {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 3em;
+}
+
+.fav-btn {
+    width: 200px;
+    height: 32px;
+    padding: 0;
+    border-radius: 16px;
+    border: none;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #0e382c;
+    /* height: 940px; */
+}
+
+.footer-container {
+    padding: 8em 5em 6em;
+    max-width: 1320px;
+    /* border: 2px solid #bbb; */
+    color: #bbb;
+    margin: auto;
+    line-height: 2.5;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    margin-top: 8px;
+}
+.footer-heading h2 {
+    font-size: 1.125em;
+    color: #fff;
+    cursor: pointer;
+}
+.footer-heading ul{
+    padding: 0;
+}
+.footer-heading li {
+    list-style-type: none;
+}
+
+.footer-heading a {
+    font-weight: 300;
+    font-size: .875em;
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+.footer-icone{
+    text-align: center;
+}
+.footer-icone i{
+    padding: 0 5px;
+    font-size: 2rem;
+}
+.app-first{
+    margin-top: 8px;
+}
+.footer-line{
+    height: 1px;
+    border: 1px solid #fff;
+}
