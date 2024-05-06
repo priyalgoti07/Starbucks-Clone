@@ -129,7 +129,7 @@ section {
 .section-container {
     margin-top: 25px;
     padding-top: 25px;
-    max-width: 1230px;
+    max-width: 1370px;
     height: 280px;
     /* border: 1px solid black; */
     margin: auto;
@@ -159,7 +159,7 @@ section {
 }
 
 .card-section {
-    width: 315px;
+    width: 370px;
     height: 125px;
     background-color: #FFFFFF;
     border-radius: 8px;
@@ -196,7 +196,7 @@ section {
 .card-last {
     display: flex;
     justify-content: space-between;
-    margin-top: 6px;
+    margin-top: 15px;
 }
 
 .card-last h4 {
@@ -218,7 +218,7 @@ section {
 }
 
 .banner-container {
-    max-width: 1140px;
+    max-width: 1300px;
     height: 220px;
     margin: auto;
     background-image: url('Banner_Background.jpg');
@@ -265,7 +265,7 @@ section {
 }
 
 .handpicked-container {
-    max-width: 1140px;
+    max-width: 1280px;
     height: 260px;
     /* border: 1px solid #000000; */
     margin: auto;
@@ -301,29 +301,96 @@ section {
 /*  */
 .favourites-section {
     margin-top: 4px;
+    margin-bottom: 5rem;
 }
 
 .favourites-container {
     margin: auto;
-    max-width: 1140px;
+    max-width: 1325px;
     height: 420px;
-    border: 2px solid black;
 }
-.fav-title h2{
+
+.favourites-inner {
+    margin: 10px;
+    display: flex;
+}
+
+.fav-title {
+    display: block;
+}
+
+.fav-card {
+    display: flex;
+}
+
+.fav-title h2 {
     color: #1E3932;
 }
-.card-container{
-    width: 362px;
-    height: 360px;
+
+.card-container {
+    width: 422px;
+    height: 370px;
     /* border: 2px solid black; */
     box-shadow: 0 2px 4px #00000012, 0 4px 5px #0000000f, 0 1px 10px #0000001a;
     border-radius: 8px;
     cursor: pointer;
+
 }
-.card-images{
+
+.card-images {
+    width: 422px;
     height: 167px;
-    width: 362px;
     object-fit: cover;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body h5 {
+    font-size: 0.87rem;
+    color: #1e3932;
+}
+
+.card-second {
+    font-size: 0.7rem;
+    color: #00000061;
+}
+
+.card-body p {
+    color: #000000de;
+    font-size: 0.83rem;
+    margin-top: 20px;
+}
+
+
+.fav-card {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fav-card button {
+    width: 96px;
+    height: 32px;
+    background: #00754A;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #a3a3a3ad;
+    color: #fff;
+}
+
+
+.card-span-left {
+    color: #000;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.card-span-right {
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
 }
